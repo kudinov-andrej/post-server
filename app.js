@@ -49,7 +49,7 @@ app.post('/send-email', (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = 4000;
 app.listen(PORT, () => {
     console.log(`Приложение слушает на порте ${PORT}`);
 });
